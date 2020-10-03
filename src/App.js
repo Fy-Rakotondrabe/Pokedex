@@ -4,9 +4,7 @@ import List from './Components/List'
 import About from './Components/About'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
-class App extends React.Component {
-  render() {
-    return(
+const App = () => (
       <div>
         <Router>
           <Switch>
@@ -16,7 +14,5 @@ class App extends React.Component {
         </Router>
       </div>
     )
-  }
-}
 
 export default App;
