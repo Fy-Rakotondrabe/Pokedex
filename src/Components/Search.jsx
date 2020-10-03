@@ -9,8 +9,7 @@ class Search extends React.Component {
     }
 
     componentWillMount() {
-        const pokemons = this.props.pokemons
-        this.setState({ pokemons: pokemons })
+        this.setState({ pokemons: this.props.pokemons })
         this.setState({ pokemonFind: [] })
     }
 
